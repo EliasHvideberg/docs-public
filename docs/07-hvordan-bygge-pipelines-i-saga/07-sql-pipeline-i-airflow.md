@@ -12,7 +12,7 @@ Denne pipelinen bruker operatorene `BigQueryCreateEmptyDatasetOperator` og `BigQ
 
 ## Veglenker med fylke (med dbt)
 
-[Du kan se kildekoden til pipelinen her.](https://github.com/svvsaga/saga-pipelines/blob/main/dags/yggdrasil/examples/veglenker_med_fylke-dbt.dag.py)
+[Du kan se kildekoden til pipelinen her.](https://github.com/svvsaga/saga-pipelines/blob/main/dags/yggdrasil/examples/veglenker_med_fylke_dbt.dag.py)
 
 Denne pipelinen gjør det samme som den rene SQL-varianten, men bruker [dbt](https://docs.getdbt.com) for å enklere definere avhengigheter mellom data, illustrere hvordan dataen flyter ([lineage](https://en.wikipedia.org/wiki/Data_lineage)), kjøre datatester og enklere opprette tabeller med statisk data (i dette tilfellet fylker).
 
